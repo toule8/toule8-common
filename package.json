@@ -1,0 +1,29 @@
+{
+  "name": "toule8",
+  "description": "Toule8 Common",
+  "version": "1.0.2",
+  "private": false,
+  "author": "https://github.com/toule8/toule8-common/graphs/contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/toule8/toule8-common.git"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.11.2",
+    "npm": ">=5.6.0"
+  },
+  "scripts": {},
+  "dependencies": {
+    "aes256": "^1.0.3",
+    "cuid": "^2.1.1",
+    "js2xmlparser": "^3.0.0",
+    "log4js": "^2.7.0",
+    "moment": "^2.22.1",
+    "mongoose": "^5.1.2",
+    "node-cache": "^4.2.0",
+    "should": "^13.2.1"
+  },
+  "devDependencies": {}
+}
