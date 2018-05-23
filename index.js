@@ -1,9 +1,12 @@
 'use strict';
 
 const utils = require('./lib/utils'),
-  wechat = require('./lib/wechat');
+  wechat = require('./lib/wechat'),
+  config = require('./lib/config');
 
 module.exports = {
   utils: utils,
-  wechat: wechat
+  wechat: wechat,
+  users: users,
+  config: config
 };
